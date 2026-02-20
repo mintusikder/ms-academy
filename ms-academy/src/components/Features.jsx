@@ -23,7 +23,7 @@ const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            কেন বেছে নেবেন <span className="text-[#dc1414]">FXPro ইন্ডিকেটর</span>
+            কেন বেছে নেবেন <span className="text-[#dc1414]">আমাদের ইন্ডিকেটর</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             আমাদের ফরেক্স ইন্ডিকেটর নির্ভরযোগ্য, উচ্চ-সঠিকতার সিগন্যাল এবং স্বয়ংক্রিয় ঝুঁকি ব্যবস্থাপনা বৈশিষ্ট্য সরবরাহ করে সকল ট্রেডারের জন্য।
@@ -43,6 +43,11 @@ const Features = () => {
             </div>
           ))}
         </div>
+               <div className="flex justify-center items-center mt-12">
+         <button className="bg-[#dc1414] hover:bg-red-700 transition-all duration-300 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg shadow-[#dc1414]/40">
+              👉 এখনই কিনুন
+            </button>
+       </div>
       </div>
     </section>
   );

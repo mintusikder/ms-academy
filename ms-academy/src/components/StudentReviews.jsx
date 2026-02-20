@@ -37,7 +37,7 @@ const StudentReviews = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            আমাদের <span className="text-[#dc1414]">স্টুডেন্টদের মতামত</span>
+            আমাদের 0% <span className="text-[#dc1414]">নেগেটিভ রিভিউ</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             যারা আমাদের Forex Indicator ব্যবহার করছে, তাদের কিছু রিভিউ দেখুন।
@@ -45,7 +45,12 @@ const StudentReviews = () => {
         </div>
 
         {/* Reviews Grid */}
-     <Slider></Slider>
+        <Slider></Slider>
+        <div className="flex justify-center items-center mt-12">
+          <button className="bg-[#dc1414] hover:bg-red-700 transition-all duration-300 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg shadow-[#dc1414]/40">
+            👉 এখনই কিনুন
+          </button>
+        </div>
       </div>
     </section>
   );

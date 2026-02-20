@@ -13,7 +13,6 @@ const Home = () => {
       <StudentReviews></StudentReviews>
       <Features></Features>
       <Pricing></Pricing>
-
     </>
   );
 };
